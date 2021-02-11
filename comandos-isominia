@@ -1,0 +1,34 @@
+Cadastrando Produtos
+
+{ 
+    "title" : "Samsung Galaxy A31", 
+    "price" : "1.550", 
+    "description" : "O que você precisa saber sobre este produto! Dispositivo desbloqueado para que você escolha a companhia telefônica de sua preferência.", 
+    "slug": "smartphone A31",
+		"tags" : [
+				"Branco", 
+				"A31",
+				"6.5 polegada"
+				],
+		"image1": "https://http2.mlstatic.com/D_NQ_NP_694664-MLA44517686057_012021-O.webp"
+}
+
+
+Deletando Prtodutos
+
+{
+	"id": "5fef480712ca6e251057e134"
+}
+
+Atualizando Produtos so que na url você tem que passao id do produto EX: http://localhost:3001/5fef4bcb12ca6e251057e137
+
+{
+    "tags": [
+      "Asus ",
+      "ZenFone"
+    ],
+    "title": "Asus ZenFone Max Shot",
+    "slug": "ZenFone Max",
+    "price": "1.250",
+		"image1": "https://http2.mlstatic.com/D_NQ_NP_835734-MLA43712471428_102020-O.webp"
+}
