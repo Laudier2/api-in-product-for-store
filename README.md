@@ -1,6 +1,6 @@
 # api-in-product-for-store
 
-! [example] (https://github.com/Laudier2/api-in-product-for-store/blob/master/src/api.png)
+![exemplo](https://github.com/Laudier2/api-in-product-for-store/blob/master/src/api.png)
 
 ##Description
 REST stands for Representational State Transfer and defines a set of standards for web services. It is an architectural style, as well as an approach for communication purposes, often used in the development of various web services.
