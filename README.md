@@ -11,7 +11,7 @@ RESTful AP I is an API that conforms to the REST style of architecture and restr
 
 The RESTful APIs most commonly use HTTP requests. Four of the most common HTTP methods are:
 
-GET, POST, PUT and DELETE, which are the methods by which a developer can create a CRUD system - create, read, update, delete. REST is an API application program interface that makes use of HTTP requests for GET, PUT, POST and DELETE data via the WWW. World Wide Web
+GET, POST, PUT and DELETE, which are the methods by which a developer can create a CRUD system - create, read, update, delete. REST is an API application program interface that makes use of HTTP requests for GET, PUT, POST and DELETE. World Wide Web
 
 
 
