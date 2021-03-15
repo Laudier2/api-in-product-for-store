@@ -1,26 +1,26 @@
 # api-in-product-for-store
 
-![exemplo](https://github.com/Laudier2/api-in-product-for-store/blob/master/src/api.png)
+! [example] (https://github.com/Laudier2/api-in-product-for-store/blob/master/src/api.png)
 
-##Descrição
-REST significa Representational State Transfer e define um conjunto de padrões para serviços da web. É um estilo de arquitetura, bem como uma abordagem para fins de comunicação, frequentemente usado no desenvolvimento de vários serviços da web.
+##Description
+REST stands for Representational State Transfer and defines a set of standards for web services. It is an architectural style, as well as an approach for communication purposes, often used in the development of various web services.
 
-Uma API é uma interface que diferentes programas de software usam para se comunicarem entre si.
+An API is an interface that different software programs use to communicate with each other.
 
-RESTful AP I é uma API que está em conformidade com o estilo de arquitetura e restrições REST. Os sistemas REST são sem estado, escaláveis, armazenáveis ​​em cache e têm uma interface uniforme.
+RESTful AP I is an API that conforms to the REST style of architecture and restrictions. REST systems are stateless, scalable, cacheable and have a uniform interface.
 
-As APIs RESTful mais comumente utilizam solicitações HTTP. Quatro dos métodos HTTP mais comuns são:
+The RESTful APIs most commonly use HTTP requests. Four of the most common HTTP methods are:
 
-GET , POST , PUT e DELETE , que são os métodos pelos quais um desenvolvedor pode criar um sistema CRUD - criar , ler , atualizar , excluir . REST é uma interface de programa de aplicação API que faz uso das requisições HTTP para GET, PUT, POST e DELETE os dados via WWW. Rede mundial de computadores
+GET, POST, PUT and DELETE, which are the methods by which a developer can create a CRUD system - create, read, update, delete. REST is an API application program interface that makes use of HTTP requests for GET, PUT, POST and DELETE data via the WWW. World Wide Web
 
 
 
-As principais funções usadas em qualquer arquitetura baseada em REST são:
+The main functions used in any REST-based architecture are:
 
-GET - Fornece acesso somente leitura a um recurso.
+GET - Provides read-only access to a resource.
 
-PUT - Cria um novo recurso.
+PUT - Creates a new resource.
 
-DELETE - Remove um recurso.
+DELETE - Removes a resource.
 
-POST - atualiza um recurso existente ou cria um novo recurso.
+POST - update an existing resource or create a new resource.
