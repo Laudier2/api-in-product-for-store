@@ -15,5 +15,8 @@
     "express": "~4.16.1",
     "mongoose": "^5.11.8",
     "morgan": "~1.9.1"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Laudier2/api-in-product-for-store.git",
+  "license": "MIT"
 }
