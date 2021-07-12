@@ -22,9 +22,21 @@ const schema = new Schema({
         type: String,
         required: false
     },
+    image4:{
+        type: String,
+        required: false
+    },
+    image5:{
+        type: String,
+        required: false
+    },
     description: {
         type: String,
         required: true
+    },
+    cor:{
+        type: String,
+        required: false
     },
     slug: {
         type: String,

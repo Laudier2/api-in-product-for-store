@@ -3,7 +3,7 @@ const guid = require('guid')
 
 exports.get = async(req, res, next) => {
     try {
-        var data = await Repository.get()        
+        var data = await repository.get()        
         res.status(200).send(data)  
     } catch (err) {
         res.status(400).send(`Houve um erro ${err}`)

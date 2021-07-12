@@ -2,11 +2,13 @@ const mongoose = require('mongoose');
 const Order = mongoose.model('Order');
 
 exports.get = async(data) => {
-    var res = await Order.find({});
+    var res = await Order.find({})
+    .populate('customer')
+    .populate('items.product');
     return res;
 }
 
 exports.create = async(data) => {
-    const order = new Order(data)
+    var order = new Order(data)
     await order.save();
 }

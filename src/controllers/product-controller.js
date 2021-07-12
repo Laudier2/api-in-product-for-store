@@ -9,6 +9,7 @@ exports.post = (req, res, next) => {
     contract.hasMinLen(req.body.title, 3, "O titulo tem que ter no minimo 3 caracter!")
     contract.hasMinLen(req.body.price, 1, "O price é obrigatorio")
     contract.hasMinLen(req.body.slug, 3, "O slog é obrigatorio!")
+    contract.hasMinLen(req.body.cor, "A cor é obrigatorio!")
     contract.hasMinLen(req.body.image1, 1, "A imagem é obrigatorio!")
     contract.hasMinLen(req.body.description, 5, "A descrição tem que ter no minimo 5 caracter!")
 

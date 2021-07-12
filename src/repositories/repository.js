@@ -4,7 +4,7 @@ const Product = require('../models/Product');
 exports.get = async() => {
     const res = await Product
     .find({
-    }, 'title price slug description image1 tags')
+    }, 'title price slug description image1 image2 image3 cor tags')
     return res;
 }
 
@@ -23,7 +23,7 @@ exports.getBayId = async(id) => {
 exports.getByTag = async(tag) => {
     const res = await Product.find({
         tags: tag,
-    }, 'title price description tags slug')
+    }, 'title price description tags slug cor')
     return res;
 }
 
