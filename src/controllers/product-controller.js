@@ -1,7 +1,7 @@
-const mongoose = require('mongoose');
-const Product = require('../models/Product');
 const ValidationContract = require('../validators/validator');
-const Repository = require('../repository/repository')
+const Repository = require('../repositories/repository')
+//const bodyParser = require('body-parser');
+//const mongoose = require('mongoose');
 
 
 exports.post = (req, res, next) => {

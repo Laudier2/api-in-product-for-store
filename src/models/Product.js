@@ -12,17 +12,13 @@ const schema = new Schema({
     },
     image1:{
         type: String,
-        required: true
+        required: false
     },
     image2:{
         type: String,
         required: false
     },
     image3:{
-        type: String,
-        required: false
-    },
-    image4:{
         type: String,
         required: false
     },
